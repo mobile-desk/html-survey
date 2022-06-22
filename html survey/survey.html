@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Take Survey</title>
+
+    <style>
+        body {
+            background-color: #F5D7E3;
+        }
+        #surv {
+            background-color: #F4A5AE;
+            border-style: dashed;
+            border-width: 3px;
+            border-color: black;
+            padding: 50px;
+            margin: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div id="surv">
+        <form action="" method="GET" id="pform">
+            <h1 style="text-align: center ;">Concept Testing Survey</h1>
+            <h3>Overall, what is your reaction to the described product?</h3><br>
+            <input type="radio" id="Excellent" name="react" value="Excellent">
+            <label for="Excellent">Excellent</label><br>
+
+            <input type="radio" id="Very good" name="react" value="Very good">
+            <label for="Very good">Very good</label><br>
+
+            <input type="radio" id="Good" name="react" value="Good">
+            <label for="Good">Good</label><br>
+
+            <input type="radio" id="Fair" name="react" value="Fair">
+            <label for="Fair">Fair</label><br>
+
+            <input type="radio" id="Poor" name="react" value="Poor">
+            <label for="Poor">Poor</label><br>
+
+            <br><br>
+
+            <h3>How interested would you be in using the described product?</h3>
+            <input type="radio" id="Excellent" name="interest" value="Excellent">
+            <label for="Excellent">Extremely interested</label><br>
+
+            <input type="radio" id="Very good" name="interest" value="Very good">
+            <label for="Very good">Not very interested</label><br>
+
+            <input type="radio" id="Good" name="interest" value="Good">
+            <label for="Good">Neutral</label><br>
+
+            <input type="radio" id="Fair" name="interest" value="Fair">
+            <label for="Fair">Somewhat interested</label><br>
+
+            <input type="radio" id="Poor" name="interest" value="Poor">
+            <label for="Poor">Not at all interested</label><br>
+
+
+            <br><br>
+
+            <label for="most">What do you like most about the product?</label><br>
+            <textarea name="most" id="" cols="30" rows="10" form="pform">  </textarea>
+
+
+            <br><br>
+
+            <label for="pay">Based on the description, what price would you expect to pay for the product?</label><br>
+            <input type="text" name="pay" id="pay"><br>
+
+            <br>
+            <input type="submit" value="Submit">
+
+        </form>
+    </div>
+</body>
+</html>
